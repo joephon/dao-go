@@ -1,0 +1,14 @@
+func closure() {
+    var a = 0
+    func(x int) {
+        a = a + x
+        a
+    }
+}
+
+var c = closure()
+c(1)
+c(1)
+c(1)
+c(1)
+c(1)

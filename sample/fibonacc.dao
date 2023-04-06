@@ -1,0 +1,11 @@
+func fibonacc(x int) {
+    if x == 0 {
+        0
+    } else if x == 1 {
+        1
+    } else {
+        fibonacc(x - 1) + fibonacc(x - 2)
+    }
+}
+
+fibonacc(35)
